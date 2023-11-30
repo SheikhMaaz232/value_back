@@ -28,8 +28,8 @@
                         <div class="col-lg-9">
                             <div class="d-flex border-bottom border-bottom-dashed pb-3 mb-3 mt-4 mt-lg-0">
                                 <div class="flex-grow-1">
-                                    <h5>Raquel Murillo</h5>
-                                    <p class="text-muted mb-0">Sales & Marketing Manager</p>
+                                    <h5>Valuebox</h5>
+                                    <p class="text-muted mb-0">Admin Profile</p>
                                 </div>
                                 <div class="flex-shrink-0">
                                     <div class="dropdown">
@@ -56,7 +56,7 @@
                                                         Location
                                                     </td>
                                                     <td class="fw-medium">
-                                                        Phoenix, USA
+                                                        Multan
                                                     </td>
                                                 </tr>
 
@@ -65,33 +65,34 @@
                                                         Email ID
                                                     </td>
                                                     <td class="fw-medium">
-                                                        raquelmurillo@sales.com
+                                                        admin@valuebox.pk
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                {{-- <tr>
                                                     <td>
                                                         Date of Birth
                                                     </td>
                                                     <td class="fw-medium">
                                                         29 Oct, 1986
                                                     </td>
-                                                </tr>
+                                                </tr> --}}
                                                 <tr>
                                                     <td>
                                                         Mobile / Phone No.
                                                     </td>
                                                     <td class="fw-medium">
-                                                        +(235) 01234 5678
+                                                        +(923) 111-555-374
+
                                                     </td>
                                                 </tr>
-                                                <tr>
+                                                {{-- <tr>
                                                     <td>
                                                         Total Reviews
                                                     </td>
                                                     <td class="fw-medium">
                                                         <i class="bi bi-star-half text-warning align-middle me-1"></i> 365
                                                     </td>
-                                                </tr>
+                                                </tr> --}}
                                             </tbody>
                                         </table>
                                     </div>
@@ -106,7 +107,7 @@
                                                         Designation
                                                     </td>
                                                     <td class="fw-medium">
-                                                        Sales & Marketing Managers
+                                                        Admin
                                                     </td>
                                                 </tr>
                                                 <tr>

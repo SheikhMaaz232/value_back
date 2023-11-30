@@ -26,7 +26,7 @@
                                     <label for="firstName" class="form-label">First Name <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="firstName"
-                                        placeholder="Enter your first name" value="Raquel">
+                                        placeholder="Enter your first name" value="Value">
                                 </div>
                             </div>
                             <!--end col-->
@@ -35,7 +35,7 @@
                                     <label for="lastName" class="form-label">Last Name <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="lastName"
-                                        placeholder="Enter your last name" value="Murillo">
+                                        placeholder="Enter your last name" value="Box">
                                 </div>
                             </div>
                             <!--end col-->
@@ -43,8 +43,8 @@
                                 <div>
                                     <label for="emailInput" class="form-label">Email Address <span
                                             class="text-danger">*</span></label>
-                                    <input type="text" class="form-control" id="emailInput" placeholder="name@toner.com"
-                                        value="raquel@toner.com">
+                                    <input type="text" class="form-control" id="emailInput" placeholder="care@valuebox.pk"
+                                        value="admin@valuebox.pk">
                                 </div>
                             </div>
                             <!--end col-->
@@ -52,7 +52,7 @@
                                 <div>
                                     <label for="phoneInput" class="form-label">Phone Number</label>
                                     <input type="text" class="form-control" id="phoneInput"
-                                        placeholder="Enter phone number" value="+(235) 01234 5678">
+                                        placeholder="Enter phone number" value="+(923) 111-555-374 ">
                                 </div>
                             </div>
                             <!--end col-->
@@ -60,7 +60,7 @@
                                 <div>
                                     <label for="birdthdatInput" class="form-label">Joining Date</label>
                                     <input type="text" class="form-control" data-provider="flatpickr" id="birdthdatInput"
-                                        data-date-format="d M, Y" data-deafult-date="24 Nov, 2021" placeholder="Select date"
+                                        data-date-format="d M, Y" data-deafult-date="29 Nov, 2021" placeholder="Select date"
                                         readonly>
                                 </div>
                             </div>
@@ -69,37 +69,37 @@
                                 <div>
                                     <label for="designationInput" class="form-label">Designation</label>
                                     <input type="text" class="form-control" id="designationInput"
-                                        placeholder="Designation" value="Sales & Marketing Manager">
+                                        placeholder="Designation" value="Sharif Plaza">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div>
                                     <label for="websiteInput1" class="form-label">Website</label>
                                     <input type="text" class="form-control" id="websiteInput1"
-                                        placeholder="www.example.com" value="www.toner.com">
+                                        placeholder="www.example.com" value="www.valuebox.pk">
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div>
                                     <label for="cityInput" class="form-label">City</label>
                                     <input type="text" class="form-control" id="cityInput" placeholder="City"
-                                        value="Phoenix">
+                                        value="Multan">
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div>
                                     <label for="countryInput" class="form-label">Country</label>
                                     <input type="text" class="form-control" id="countryInput" placeholder="Country"
-                                        value="United States">
+                                        value="Pakistan">
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            {{-- <div class="col-lg-4">
                                 <div>
                                     <label for="zipcodeInput" class="form-label">Zip Code</label>
                                     <input type="text" class="form-control" minlength="5" maxlength="6"
                                         id="zipcodeInput" placeholder="Enter zipcode" value="90011">
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="col-lg-12">
                                 <div class="text-end">
                                     <button type="submit" class="btn btn-secondary">Update Profile</button>
@@ -131,7 +131,7 @@
                                 <div>
                                     <label for="facebook" class="form-label">Facebook</label>
                                     <input type="text" class="form-control" id="facebook" placeholder="Username"
-                                        value="Raquel">
+                                        value="ValueBox">
                                 </div>
                             </div>
                             <!--end col-->
@@ -139,24 +139,24 @@
                                 <div>
                                     <label for="whatsappInput" class="form-label">Whatsapp</label>
                                     <input type="text" class="form-control" id="whatsappInput"
-                                        placeholder="+(235) 01234 5678" value="+(253) 98765 4321">
+                                        placeholder="+(923) 111-555-374" value="+(923) 111-555-374">
                                 </div>
                             </div>
                             <!--end col-->
-                            <div class="col-lg-4">
+                            {{-- <div class="col-lg-4">
                                 <div>
                                     <label for="twitterInput" class="form-label">Twitter <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="twitterInput" placeholder="Username"
                                         value="@raquel_morillo">
                                 </div>
-                            </div>
+                            </div> --}}
                             <!--end col-->
                             <div class="col-lg-4">
                                 <div>
                                     <label for="emailInput2" class="form-label">Email</label>
                                     <input type="text" class="form-control" id="emailInput2"
-                                        placeholder="example@toner.com" value="raquelmurillo@toner.com">
+                                        placeholder="example@valuebox.pk" value="admin@valuebox.pk">
                                 </div>
                             </div>
                             <!--end col-->
@@ -408,13 +408,13 @@
                             </div>
                         </div>
 
-                        <div class="d-flex flex-column flex-sm-row mb-4 mb-sm-0 mt-2">
+                        {{-- <div class="d-flex flex-column flex-sm-row mb-4 mb-sm-0 mt-2">
                             <div class="flex-grow-1">
                                 <h6 class="fs-16 mb-1">Backup Codes</h6>
                                 <p class="text-muted mb-sm-0">A backup code is automatically generated for you when you
                                     turn on two-factor authentication through your iOS or Android Twitter app. You can also
                                     generate a backup code on twitter.com.</p>
-                            </div>
+                            </div> --}}
                             <div class="flex-shrink-0 ms-sm-3">
                                 <a href="javascript:void(0);" class="btn btn-sm btn-primary">Generate backup codes</a>
                             </div>
@@ -427,7 +427,7 @@
                                 delete your account :</p>
                             <div>
                                 <input type="password" class="form-control" id="passwordInput"
-                                    placeholder="Enter your password" value="make@321654987" style="max-width: 265px;">
+                                    placeholder="Enter your password" value="admin@786" style="max-width: 265px;">
                             </div>
                             <div class="hstack gap-2 mt-3">
                                 <a href="javascript:void(0);" class="btn btn-soft-danger">Close &amp; Delete This

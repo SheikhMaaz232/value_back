@@ -90,12 +90,12 @@
                                     </div>
                                     <div class="col-lg-8 col-9">
                                         <h1 class="text-white text-capitalize lh-base fw-lighter">Let's get started with
-                                            Toner Store</h1>
+                                             ValueBox</h1>
                                     </div>
                                 </div>
                             </div>
                             <div class="card-body">
-                                <p class="text-muted fs-15">Get your free Toner account now</p>
+                                <p class="text-muted fs-15">Get your free valueBox account now</p>
                                 <div class="p-2">
                                     <form class="needs-validation" novalidate method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
                                         @csrf
@@ -201,7 +201,7 @@
 
                                         <div class="mb-4 col-md-12">
                                             <p class="mb-0 fs-12 text-muted fst-italic">By registering you agree to the
-                                                Toner <a href="#"
+                                                ValueBox <a href="#"
                                                     class="text-primary text-decoration-underline fst-normal fw-medium">Terms
                                                     of Use</a></p>
                                         </div>
@@ -220,7 +220,7 @@
                                             <button class="btn btn-primary w-100" type="submit">Sign Up</button>
                                         </div>
 
-                                        <div class="mt-4 text-center col-md-12">
+                                        {{-- <div class="mt-4 text-center col-md-12">
                                             <div class="signin-other-title">
                                                 <h5 class="fs-13 mb-4 title text-muted">Create account with</h5>
                                             </div>
@@ -235,7 +235,7 @@
                                                 <button type="button" class="btn btn-soft-info btn-icon "><i
                                                         class="ri-twitter-fill fs-16"></i></button>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </form>
                                 </div>
                                 <div class="mt-4 text-center">
@@ -260,8 +260,7 @@
                             <p class="mb-0 text-muted">©
                                 <script>
                                     document.write(new Date().getFullYear())
-                                </script> Toner. Crafted with <i class="mdi mdi-heart text-danger"></i> by
-                                Themesbrand
+                                </script> ValueBox. All<i class="mdi mdi-heart text-danger"></i>Rights Reserved
                             </p>
                         </div>
                     </div>

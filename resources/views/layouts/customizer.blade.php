@@ -8,7 +8,7 @@
 <div class="collapse chat-box" id="chatBot">
     <div class="card shadow-lg border-0 rounded-bottom-0 mb-0">
         <div class="card-header bg-success d-flex align-items-center border-0">
-            <h5 class="text-white fs-16 fw-medium flex-grow-1 mb-0">Hi, Raquel Murillo 👋</h5>
+            <h5 class="text-white fs-16 fw-medium flex-grow-1 mb-0">Hi, Admin 👋</h5>
             <button type="button" class="btn-close btn-close-white flex-shrink-0" onclick="chatBot()" data-bs-dismiss="collapse" aria-label="Close"></button>
         </div>
         <div class="card-body p-0">
@@ -1134,9 +1134,9 @@
             <div class="col-6">
                 <button type="button" class="btn btn-light w-100" id="reset-layout">Reset</button>
             </div>
-            <div class="col-6">
+            {{-- <div class="col-6">
                 <a href="#!" target="_blank" class="btn btn-primary w-100">Buy Now</a>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
